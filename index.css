@@ -21,8 +21,21 @@ body {
   height: 80%;
 }
 
-.maintext {
+.main {
   position: relative;
+  width: 90%;
+  height: 70%;
+  margin: 5% 5%;
+}
+
+.uppermaindiv {
+  display: flex;
+  flex-flow: wrap;
+}
+
+.maintext {
+  display: flex;
+  flex-flow: wrap;
   width: 45%;
   height: auto;
   color: hsl(300, 43%, 22%);
@@ -45,11 +58,12 @@ body {
   flex-direction: row;
   top: 10px;
   left: 55px;
-  width: 30%;
+  width: 70%;
   height: 45px;
   padding: 0px 25px;
   border-radius: 5px;
   background-color: hsl(300, 24%, 96%);
+  margin: 20px;
 }
 
 .rectangularCard1 .star1 img {
@@ -69,11 +83,13 @@ body {
   flex-direction: row;
   top: 10px;
   left: 55px;
-  width: 30%;
+  width: 80%;
   height: 45px;
   padding: 0px 25px;
   border-radius: 5px;
   background-color: hsl(300, 24%, 96%);
+  margin: 20px;
+  margin-left: 60px;
 }
 
 .rectangularCard2 .star2 img {
@@ -93,11 +109,13 @@ body {
   flex-direction: row;
   top: 10px;
   left: 55px;
-  width: 30%;
+  width: 90%;
   height: 45px;
   padding: 0px 25px;
   border-radius: 5px;
   background-color: hsl(300, 24%, 96%);
+  margin: 20px;
+  margin-left: 100px;
 }
 
 .rectangularCard3 .star3 img {
@@ -109,6 +127,12 @@ body {
 .rectangularCard3 .p3 {
   color: hsl(300, 43%, 22%);
   margin-left: 30px;
+}
+
+.lowermaindiv {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: wrap;
 }
 
 .hero-card1 {
