@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan&display=swap");
+
+body {
+  font-family: "Spartan", sans-serif;
+  font-size: 15px;
+}
+
+.image-top-desktop {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 45%;
+  height: auto;
+}
+
+.image-bottom-desktop {
+  position: absolute;
+  left: 30%;
+  top: 20%;
+  width: 70%;
+  height: 80%;
+}
+
+.maintext {
+  position: relative;
+  width: 45%;
+  height: auto;
+  color: hsl(300, 43%, 22%);
+}
+
+.maintext .heading {
+  width: 55%;
+  margin-bottom: 0px;
+  font-size: 40px;
+}
+
+.maintext .paragraph {
+  width: 70%;
+  margin-top: 10px;
+}
+
+.rectangularCard1 {
+  /* position: absolute; */
+  display: flex;
+  flex-direction: row;
+  top: 10px;
+  left: 55px;
+  width: 30%;
+  height: 45px;
+  padding: 0px 25px;
+  border-radius: 5px;
+  background-color: hsl(300, 24%, 96%);
+}
+
+.rectangularCard1 .star1 img {
+  margin-top: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+.rectangularCard1 .p1 {
+  color: hsl(300, 43%, 22%);
+  margin-left: 30px;
+}
+
+.rectangularCard2 {
+  /* position: absolute; */
+  display: flex;
+  flex-direction: row;
+  top: 10px;
+  left: 55px;
+  width: 30%;
+  height: 45px;
+  padding: 0px 25px;
+  border-radius: 5px;
+  background-color: hsl(300, 24%, 96%);
+}
+
+.rectangularCard2 .star2 img {
+  margin-top: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+.rectangularCard2 .p2 {
+  color: hsl(300, 43%, 22%);
+  margin-left: 30px;
+}
+
+.rectangularCard3 {
+  /* position: absolute; */
+  display: flex;
+  flex-direction: row;
+  top: 10px;
+  left: 55px;
+  width: 30%;
+  height: 45px;
+  padding: 0px 25px;
+  border-radius: 5px;
+  background-color: hsl(300, 24%, 96%);
+}
+
+.rectangularCard3 .star3 img {
+  margin-top: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+.rectangularCard3 .p3 {
+  color: hsl(300, 43%, 22%);
+  margin-left: 30px;
+}
