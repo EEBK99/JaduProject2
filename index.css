@@ -270,3 +270,74 @@ body {
   grid-column: 1/3;
   grid-row: 3/4;
 }
+
+@media screen and  (max-width:1024px){
+  .uppermaindiv {
+    display: block;
+    width: 80%;
+    margin: 10%;
+    height: auto;
+    color: hsl(300, 43%, 22%);
+  }
+  
+  .rectangularCard1 {
+    display: flex;
+    top: 10px;
+    left: 55px;
+    width: 90%;
+    height: 45px;
+    padding: 0px 25px;
+    border-radius: 5px;
+    background-color: hsl(300, 24%, 96%);
+    margin: 20px;
+  }
+  .rectangularCard2 {
+    display: flex;
+    top: 10px;
+    left: 55px;
+    width: 90%;
+    height: 45px;
+    padding: 0px 25px;
+    border-radius: 5px;
+    background-color: hsl(300, 24%, 96%);
+    margin: 20px;
+  }
+  .rectangularCard3 {
+    display: flex;
+    top: 10px;
+    left: 55px;
+    width: 90%;
+    height: 45px;
+    padding: 0px 25px;
+    border-radius: 5px;
+    background-color: hsl(300, 24%, 96%);
+    margin: 20px;
+  }
+
+  .maintext {
+    display: flex;
+    flex-flow: wrap;
+    width: 90%;
+    height: auto;
+    color: hsl(300, 43%, 22%);
+  }
+
+  .maintext .heading {
+    width: 100%;
+    margin-bottom: 0px;
+    font-size: 40px;
+    text-align: center;
+  }
+  
+  .maintext .paragraph {
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .lowermaindiv {
+    display: block;
+    align-items: center;
+    justify-content: center;
+  }
+}
